@@ -1,0 +1,30 @@
+{
+  "name": "qa4alex-wdio",
+  "version": "1.0.0",
+  "description": "e2e",
+  "main": "index.js",
+  "scripts": {
+    "e2e:web:dev": "wdio config/wdio.web.conf --env=dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nesibf/QA4AlexWDIO.git"
+  },
+  "keywords": [
+    "automation",
+    "repo"
+  ],
+  "author": "",
+  "homepage": "https://github.com/nesibf/QA4AlexWDIO.git#README.md",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "node-fetch": "^1.6.3",
+    "selenium-standalone": "^6.11.0",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.3",
+    "webdriverio": "^4.9.11",
+    "wdio-dot-reporter": "0.0.9",
+    "wdio-mocha-framework": "0.5.11"
+  }
+}

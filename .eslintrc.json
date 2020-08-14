@@ -1,0 +1,32 @@
+{
+  "plugins": [
+    "webdriverio",
+    "jasmine"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "webdriverio/wdio": true,
+    "jasmine": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:jasmine/recommended"
+  ],
+  "rules": {
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-unused-vars": 2,
+    "no-undef": 2
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
